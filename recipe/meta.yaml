@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
 
 requirements:
@@ -34,7 +34,7 @@ about:
   license_family: "MIT"
   license_file: "LICENSE"
   summary: "Calculates Economic Complexity Indexes"
-  doc_url: ""
+  doc_url: "https://github.com/phcsoares/econci"
   dev_url: "https://github.com/phcsoares/econci"
 
 extra:
